@@ -1,17 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// DESESTRUCTURACION DE ARREGLOS (ARRAYS)
+const nombresDeEstudiantes = ['Diego' , 'mileyvi ' , 'Juan']
+console.log(nombresDeEstudiantes);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//el nombre de las variables a desestructurar puede ser cualquiera
+const [v1 , v2 , v3 ] = nombresDeEstudiantes ;
+console.log(v1);
+console.log(v2);
+console.log(v3);
