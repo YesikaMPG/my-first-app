@@ -1,0 +1,34 @@
+
+
+[ 
+    { 
+        "id": 1, 
+        "nombre": "Gatito", 
+        "apellido": "Feliz" , 
+        "marca": "a" 
+    },
+    {
+        "id": 2,
+        "nombre": "Perro",
+        "apellido": "Enojado",
+        "marca": "a"
+    }, 
+    { 
+        "id": 3, 
+        "nombre": "Loro", 
+        "apellido": "Alegre" , 
+        "marca": "b" 
+    },
+    { 
+        "id": 4, 
+        "nombre": "Serpiente", 
+        "apellido": "Coqueta" , 
+        "marca": "b" 
+    },
+    { 
+        "id": 5, 
+        "nombre": "Osito", 
+        "apellido": "Dormilon" , 
+        "marca": "c" 
+    }
+]
